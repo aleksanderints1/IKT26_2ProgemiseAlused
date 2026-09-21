@@ -13,7 +13,6 @@ namespace IfAndElseColors
             Console.WriteLine("Värvide valikus on: red, blue, green ja white");
             Console.WriteLine("Peab käsitlema juhust, kus vastaja ei sisesta" +
                 "eelpool sisestatud värvi");
-
             Console.WriteLine("Sisesta värv (valikus on: red, blue, green, white):");
 
             // Loeme sisendi ja teeme selle väiketähtedeks, et vigu vältida
@@ -32,7 +31,7 @@ namespace IfAndElseColors
             else if (input == "green")
             {
                 Console.BackgroundColor = ConsoleColor.Green;
-                Console.WriteLine("Valisid rohelise värvi (roheline).");
+                Console.WriteLine("Valisid rohelise värvi (green).");
             }
             else if (input == "white")
             {
