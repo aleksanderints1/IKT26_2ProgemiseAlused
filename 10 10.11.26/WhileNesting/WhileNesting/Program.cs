@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //Console.WriteLine("Hello, World!");
             //tuleb kasutada while ja omakorda while sisse panna while
             //while nesting
             //while kordab ennast 5 korda
